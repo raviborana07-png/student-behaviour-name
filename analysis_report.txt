@@ -1,0 +1,73 @@
+=== Dtypes ===
+student_id                        object
+age                                int64
+gender                            object
+study_hours_per_day              float64
+social_media_hours               float64
+netflix_hours                    float64
+part_time_job                     object
+attendance_percentage            float64
+sleep_hours                      float64
+diet_quality                      object
+exercise_frequency                 int64
+parental_education_level          object
+internet_quality                  object
+mental_health_rating               int64
+extracurricular_participation     object
+exam_score                       float64
+dtype: object
+
+
+=== Missing ===
+student_id                        0
+age                               0
+gender                            0
+study_hours_per_day               0
+social_media_hours                0
+netflix_hours                     0
+part_time_job                     0
+attendance_percentage             0
+sleep_hours                       0
+diet_quality                      0
+exercise_frequency                0
+parental_education_level         91
+internet_quality                  0
+mental_health_rating              0
+extracurricular_participation     0
+exam_score                        0
+dtype: int64
+
+
+=== Numeric Describe ===
+                        count     mean        std   min     25%   50%     75%  \
+age                    1000.0  20.4980   2.308100  17.0  18.750  20.0  23.000   
+study_hours_per_day    1000.0   3.5501   1.468890   0.0   2.600   3.5   4.500   
+social_media_hours     1000.0   2.5055   1.172422   0.0   1.700   2.5   3.300   
+netflix_hours          1000.0   1.8197   1.075118   0.0   1.000   1.8   2.525   
+attendance_percentage  1000.0  84.1317   9.399246  56.0  78.000  84.4  91.025   
+sleep_hours            1000.0   6.4701   1.226377   3.2   5.600   6.5   7.300   
+exercise_frequency     1000.0   3.0420   2.025423   0.0   1.000   3.0   5.000   
+mental_health_rating   1000.0   5.4380   2.847501   1.0   3.000   5.0   8.000   
+exam_score             1000.0  69.6015  16.888564  18.4  58.475  70.5  81.325   
+
+                         max  
+age                     24.0  
+study_hours_per_day      8.3  
+social_media_hours       7.2  
+netflix_hours            5.4  
+attendance_percentage  100.0  
+sleep_hours             10.0  
+exercise_frequency       6.0  
+mental_health_rating    10.0  
+exam_score             100.0  
+
+
+=== Categorical Describe ===
+                              count unique          top freq
+student_id                     1000   1000        S1000    1
+gender                         1000      3       Female  481
+part_time_job                  1000      2           No  785
+diet_quality                   1000      3         Fair  437
+parental_education_level        909      3  High School  392
+internet_quality               1000      3         Good  447
+extracurricular_participation  1000      2           No  682
